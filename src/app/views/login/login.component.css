@@ -1,0 +1,45 @@
+
+#contenedor{
+    border-top: solid 1px rgb(218, 217, 217);
+    border-left: solid 1px rgb(218, 217, 217);
+    border-right: solid 1px rgb(218, 217, 217);
+    border-bottom: solid 1px rgb(218, 217, 217);
+    width: 600px;
+    height: 550px;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-family: "Open Sans", sans-serif;
+}
+#login{
+    margin-left: 40%;
+}
+#user{
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: larger;
+}
+#password{
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: larger;
+}
+#user input{
+    width: 500px;
+    height: 30px;
+}
+#password input{
+    margin-left: -0.5%;
+    width: 500px;
+    height: 30px;
+    margin-top: -1px;
+}
+#button{
+  width: 140px;  
+  height: 40px;
+  margin-top: 15%;
+  margin-left: 35%;
+  background-color: black;
+  color:rgb(250, 244, 236);
+  font-family: "Open Sans", sans-serif;
+  font-size: large;
+}

@@ -1,0 +1,12 @@
+<ul id="menu">
+    <li><img alt="logo" class="active" src="/assets/images/empleados/logo.png"></li>
+    <li routerLink="/us"><span> Info </span> </li>
+    <li routerLink="/list"><span> Contáctanos </span> </li>
+    <li routerLink="/list"><span> Productos </span> </li>
+    <li id="acceso" *ngIf="miToken == 0" class="acceso" routerLink="/login">
+        <span>Login</span>
+    </li>
+    <li id="acceso" *ngIf="miToken != 0" class="acceso" (click)="logout()">
+        <span><strong>Usuario:</strong> {{userName}}</span>
+    </li>
+</ul>
