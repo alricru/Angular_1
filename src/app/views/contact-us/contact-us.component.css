@@ -1,0 +1,17 @@
+#cabecera{
+    margin-left: 250px;
+    margin-top: -34px;
+    width: 70%;
+    height: 300px;
+    background-color: rgb(40, 40, 40);
+    color: rgb(250, 244, 236);
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    
+}
+
+#cabecera h1{
+    font-size: 50px;
+    padding: 60px;
+    height: 20px;
+}

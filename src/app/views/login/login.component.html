@@ -3,15 +3,13 @@
     <h1 id="login">Login</h1>
     <form (ngSubmit)="submit()" #userForm="ngForm">
         <div id="user" class="form-group">
-            <label for="user">Nombre:</label>
-            <input id="input" type="text" [(ngModel)]="user.name" name="name" #name="ngModel" required>
+            <input id="input" type="text" placeholder="Nombre" [(ngModel)]="user.name" name="name" #name="ngModel" required>
             <div *ngIf="name.invalid && name.dirty" class="alert">
                 <div *ngIf="name.errors?.required">Campo requerido</div>
             </div>
         </div>
         <div id="password" class="form-group">
-            <label for="password">Contraseña:</label>
-            <input id="password" type="password" [(ngModel)]="user.password" name="password" #password="ngModel" required
+            <input id="password" type="password" placeholder="Contraseña" [(ngModel)]="user.password" name="password" #password="ngModel" required
                 minlength="4">
             <div *ngIf="password.invalid && password.dirty" class="alert">
                 <div *ngIf="password .errors?.required">Campo requerido</div>
