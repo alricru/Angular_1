@@ -1,0 +1,12 @@
+<h1 id="h1">¿Qué desea hacer?</h1>
+<div id="container">
+    <button id="buscar"><img alt="logo" class="active" src="/assets/images/empleados/productos.png"><br> NUEVOS PRODUCTOS</button>
+    <button id="pedidos"><img alt="logo" class="active" src="/assets/images/empleados/pedidos.png"><br>PEDIDOS HECHOS</button>
+    <button id="configuracion"><img alt="logo" class="active" src="/assets/images/empleados/configuracion.png"><br>CONFIGURACIÓN</button>
+    <button id="cancelados"><img alt="logo" class="active" src="/assets/images/empleados/cancelados.png"><br>PEDIDOS CANCELADOS</button>
+    <button id="logout" *ngIf="miToken != 0" class="acceso" (click)="logout()"><img alt="logo" class="active" src="/assets/images/empleados/logout.png"><br>LOGOUT</button>
+</div>
+
+
+
+

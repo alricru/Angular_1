@@ -1,0 +1,49 @@
+#container{
+    width: 70%;
+    height: 500px;
+    margin-left: 14%;
+    font-family: "Open Sans", sans-serif;
+}
+
+#buscar{
+    float:left;
+    margin-left: 10px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+}
+#pedidos{
+    margin-left: 130px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+}
+#configuracion{
+    float: right;
+    margin-right: 10px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+}
+#cancelados{
+    float:left;
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+}
+#logout{
+    float:right;
+    margin-right: 10px;
+    margin-top: 100px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+}
+#h1{
+    font-family: "Open Sans", sans-serif;
+    margin-left: 300px;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}

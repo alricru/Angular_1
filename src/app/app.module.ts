@@ -13,6 +13,7 @@ import { LoginComponent } from './views/login/login.component';
 import { ContactUsComponent } from './views/contact-us/contact-us.component';
 import { AskComponent } from './Components/ask/ask.component';
 import { ConfirmComponent } from './Components/confirm/confirm.component';
+import { LogoutComponent } from './Components/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ConfirmComponent } from './Components/confirm/confirm.component';
     LoginComponent,
     ContactUsComponent,
     AskComponent,
-    ConfirmComponent
+    ConfirmComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,

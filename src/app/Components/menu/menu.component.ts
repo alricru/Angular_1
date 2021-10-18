@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu',
@@ -9,7 +10,7 @@ export class MenuComponent implements OnInit {
   public miToken: number;
   public userName: string | null;
 
-  constructor() {
+  constructor(private router: Router) {
     this.miToken = 0;
     this.userName = "";
   }
@@ -23,9 +24,7 @@ export class MenuComponent implements OnInit {
     }
   }
   public logout(): void {
-    if (localStorage.getItem('personalToken')) {
-      localStorage.removeItem('personalToken');
-    }
+    this.router.navigate(['/logout'])
   }
 
 }

@@ -6,6 +6,7 @@ import { PageNotFoundComponent } from './views/page-not-found/page-not-found.com
 import { LoginComponent } from './views/login/login.component';
 import { ContactUsComponent } from './views/contact-us/contact-us.component';
 import { ConfirmComponent } from './Components/confirm/confirm.component';
+import { LogoutComponent } from './Components/logout/logout.component';
 
 const routes: Routes = [
   { path: 'list', component: ListComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   {path: 'contact', component: ContactUsComponent},
   {path: 'confirm', component: ConfirmComponent},
+  { path: 'logout', component: LogoutComponent},
   { path: '', redirectTo: '/us', pathMatch:'full'},
   { path:'**', component:PageNotFoundComponent}
 ];

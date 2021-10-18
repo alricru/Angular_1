@@ -3,7 +3,8 @@
     padding: 0;
     background-color: rgb(163, 162, 161);
     width: 100%;
-    height: 60px;
+    height: 70px;
+    margin-top: -7px;
 }
 #menu li {
     display: inline;
@@ -11,8 +12,8 @@
 #menu li span {
     font-family: "Open Sans", sans-serif;
     float: left;
-    padding: 21px;
-    font-size: larger;
+    padding: 24px;
+    font-size: 20px;
 }
 #acceso {
     position: absolute;
@@ -20,5 +21,6 @@
 .active {
     background-color: #0c0c0c;
     float: left;
-    width: 9%;
+    width: 10%;
+    height: 100%;
   }

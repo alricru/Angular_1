@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
       (data: number) => {
         localStorage.setItem('userName', this.user.name);
         localStorage.setItem('personalToken', `${data}`);
-        this.router.navigate(['/list']);
+        this.router.navigate(['/logout']).then(()=>{window.location.reload();});
       },
       (error: Error) => {
         console.error("Error al realizar el acceso- login");
