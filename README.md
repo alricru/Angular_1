@@ -13,7 +13,7 @@ Una vez hecho esto ejecutamos el comando: ***npm run json:server***
 
 Se ejecutará la base de datos en el puerto 3000 del localhost
 
-La base de datos es el archivo ***bd.json***
+La base de datos es el archivo ***bd.json*** de ka carpeta raiz
 
 
 # Frontend
