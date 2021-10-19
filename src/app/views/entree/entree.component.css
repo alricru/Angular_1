@@ -1,9 +1,43 @@
 #entree {
-    background-color: aqua;
-    border-radius: 10px;
+    background-color:rgb(242, 242, 242);
+    float:left;
+    width: 30%;
+    margin-left: 50px;
+    margin-bottom:30px;
+    font-family: "Open Sans", sans-serif;
 }
 #entree * {
     padding: 10px;
+}
+#entree img{
+    width: 300px;
+    height:300px;
+    float:left;
+}
+#entree h4{
+    color: rgb(102, 102, 102);
+    font-size: 30px;
+    float:right;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+#entree h6{
+    float: right;
+    color: red;
+    font-size: 45px;
+    margin-right: 50px;
+}
+#entree p{
+    text-align: center;
+    margin-left: 150px;
+    color:rgb(175, 175, 175);
+}
+#entree h2{
+    width:90%;
+    margin-top:290px;
+    margin-left:20px;
+    border-bottom: solid 1px grey;
 }
    
 

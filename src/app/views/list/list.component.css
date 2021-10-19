@@ -1,7 +1,9 @@
 #list {
-    background-color: azure;
+    font-family: "Open Sans", sans-serif;
     height: 750px;
 }
 #list h3 {
     padding: 10px;
+    font-size: 50px;
+    margin-left: 40px;
 }

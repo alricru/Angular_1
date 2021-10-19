@@ -33,8 +33,8 @@ export class ListComponent implements OnInit {
   }
    
 
-  public showTitle(title: string): void {
-    alert(`Entrada seleccionada: ${ title }.`);
+  public showTitle(nombre: string): void {
+    alert(`Entrada seleccionada: ${ nombre }.`);
   }
 
 }

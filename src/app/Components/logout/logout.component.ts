@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-logout',
@@ -9,14 +10,15 @@ export class LogoutComponent implements OnInit {
   public miToken: number;
   public userName: string | null;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
   public logout(): void {
     if (localStorage.getItem('personalToken')) {
       localStorage.removeItem('personalToken');
-    }window.location.reload();
+      this.router.navigate(['/login']).then(()=>{window.location.reload();});
+    }
   }
 
 }

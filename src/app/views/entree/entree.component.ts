@@ -11,8 +11,10 @@ export class EntreeComponent implements OnInit {
   public entree: Entree ;
   constructor() { 
     this.entree = {
-      title: '',
-      body: ''
+      nombre: '',
+      imagen: '',
+      descripcion:'',
+      precio:''
     }
      
   }

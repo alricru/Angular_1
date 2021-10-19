@@ -1,4 +1,6 @@
 export interface Entree {
-    title: string;
-    body: string; 
+    nombre: string;
+    imagen: string;
+    descripcion: string; 
+    precio: string;
 }

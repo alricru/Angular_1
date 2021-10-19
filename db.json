@@ -1,0 +1,59 @@
+{
+"empleados": [
+{  
+    "id": 1,  
+    "nombre": "Antonio",  
+    "imagen": "antonio.jpg",
+    "descripcion": "Antonio se encarga de reparar los pc"  
+}, {  
+    "id": 2,  
+    "nombre": "Roberto",  
+    "imagen": "roberto.jpg",
+    "descripcion": "Roberto se encarga de la parte de los electrodomésticos"  
+},{  
+    "id": 3,  
+    "nombre": "Patricia",  
+    "imagen": "patricia.jpg",
+    "descripcion": "Patricia es buena persona, siempre saluda"  
+}
+],   
+"productos": [
+{  
+    "id": 1,  
+    "nombre": "PC1",  
+    "imagen": "pc1.jpg",
+    "descripcion": "esta es la descripción de pc1, asdfsdfasdfas",
+    "precio": "649€"  
+}, {  
+    "id": 2,  
+    "nombre": "PC2",  
+    "imagen": "pc2.jpg",
+    "descripcion": "esta es la descripción de pc2, asdfadfaefawf",
+    "precio": "600€" 
+},{  
+    "id": 3,  
+    "nombre": "PC3",  
+    "imagen": "pc3.jpg",
+    "descripcion": "esta es la descripción de pc3, sdfasdafewa",
+    "precio": "425€"  
+},{  
+    "id": 4,  
+    "nombre": "PC4",  
+    "imagen": "pc4.jpg",
+    "descripcion": "esta es la descripción de pc4, asdfaefaefa",
+    "precio": "542€"  
+}, {  
+    "id": 5,  
+    "nombre": "PC5",  
+    "imagen": "pc5.jpg",
+    "descripcion": "esta es la descripción de pc5, adfoijnofahfo",
+    "precio": "700€"  
+},{  
+    "id": 6,  
+    "nombre": "PC6",  
+    "imagen": "pc6.jpg",
+    "descripcion": "esta es la descripción de pc6, asdfiasdfoahfoab",
+    "precio": "342€" 
+}
+]   
+} 

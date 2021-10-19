@@ -10,6 +10,6 @@ import { Entree } from '../interfaces/entree';
 export class EntreeService {
   constructor(private httpClient: HttpClient) { }
   public retrieveEntry(): Observable<any> {
-    return this.httpClient.get<any>('https://jsonplaceholder.typicode.com/posts');
+    return this.httpClient.get<any>('http://localhost:3000/productos');
   }
 }
