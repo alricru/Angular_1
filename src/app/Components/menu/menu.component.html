@@ -1,12 +1,23 @@
-<ul id="menu">
+<ul *ngIf="miToken == 0" id="menu">
     <li><img alt="logo" class="active" src="/assets/images/empleados/logo.png"></li>
     <li routerLink="/us"><span> Info </span> </li>
     <li routerLink="/contact"><span> Contáctanos </span> </li>
     <li routerLink="/list"><span> Productos </span> </li>
-    <li id="acceso" *ngIf="miToken == 0" class="acceso" routerLink="/login">
+    <li id="acceso" class="acceso" routerLink="/login">
         <span>Login</span>
     </li>
-    <li id="acceso" *ngIf="miToken != 0" class="acceso" (click)="logout()">
+
+</ul>
+<ul *ngIf="miToken != 0" id="menu2">
+    <li><img alt="logo" class="active" src="/assets/images/empleados/logo.png"></li>  
+    <li><span> Nuevos Productos </span> </li>
+    <li><span> Pedidos Hechos </span> </li>
+    <li><span> Configuración </span> </li>
+    <li><span> Pedidos Cancelados </span> </li>
+    <li>
         <span><strong>Usuario:</strong> {{userName}}</span>
+    </li>
+    <li id="acceso" class="acceso" (click)="logout()">
+        <img alt="logo" src="/assets/images/empleados/logout2.png">
     </li>
 </ul>

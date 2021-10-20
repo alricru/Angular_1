@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Ask } from 'src/app/shared/classes/ask';
 import { AskService } from 'src/app/shared/services/ask.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-ask',
@@ -21,7 +22,7 @@ export class AskComponent implements OnInit {
       (data: number) => {
         localStorage.setItem('userName', this.Ask.name)
         localStorage.setItem('personalToken2',`${data}`);
-        this.router.navigate(['/confirm'])
+        Swal.fire('Su pregunta se ha enviado correctamente')
       },
       (error: Error) => {
         console.error("Error al realizar la pregunta")

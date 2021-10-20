@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-menu',
@@ -24,7 +25,21 @@ export class MenuComponent implements OnInit {
     }
   }
   public logout(): void {
-    this.router.navigate(['/logout'])
+    if (localStorage.getItem('personalToken')) {
+      localStorage.removeItem('personalToken');
+      this.router.navigate(['/login']);
+      Swal.fire({
+        title: 'Has cerrado sesión',
+        icon: 'success',
+        confirmButtonText: ' Confirmar'
+        }).then ( respuesta =>{
+        if (localStorage.getItem('personalToken')) {
+        localStorage.removeItem('personalToken');
+        }
+        window.location.reload();
+        })
+       
+    }
   }
 
 }
