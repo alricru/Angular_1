@@ -25,6 +25,4 @@ Para descargar las dependencias necesarias.
 
 # Problemas
 
-He ido justo de tiempo por problemas personales y no he podido implementar ni el slider, por problemas al conectar la bd con el mismo, ni la barra de búsqueda.
-
-Por esto último, en lugar de barra de búsqueda, en el menú hay una pestaña llamada productos, para así almenos vea la vista y que conecta bien con la base de datos.
+He ido justo de tiempo por problemas personales y no he podido implementar el slider, por problemas al conectar la bd con el mismo.
