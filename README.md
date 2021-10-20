@@ -9,8 +9,6 @@ Yo no tengo backend como tal, puesto que usé el paquete de json-server para cre
 
 Lo único que hay que hacer es instalar el json-server en la carpeta raíz con el comando: ***npm install json-server***
 
-E instalar el sweetalert2 con el comando: ***npm install sweetalert2***
-
 Una vez hecho esto ejecutamos el comando: ***npm run json:server***
 
 Se ejecutará la base de datos en el puerto 3000 del localhost
@@ -22,6 +20,8 @@ La base de datos es el archivo ***bd.json*** de la carpeta raiz
 
 
 Ya que solo he usado Angular en este proyecto, basta con ejecutar en la carpeta raiz el comando: ***npm install***
+
+E instalar el sweetalert2 con el comando: ***npm install sweetalert2***
 
 Para descargar las dependencias necesarias.
 
